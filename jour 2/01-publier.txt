@@ -1,0 +1,8 @@
+github.com
+
+créer un compte utilisateur
+garder l'email / password
+
+git branch -M main
+git remote add origin https://github.com/AzizSoltani/D-couverte-de-Git.git
+git push -u origin main
