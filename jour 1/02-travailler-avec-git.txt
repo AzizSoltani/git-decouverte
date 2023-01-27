@@ -1,0 +1,44 @@
+-- travailler avec git sur un projet
+-- repository = dépôt => dossier dans lequel git va stocker l'évolution de votre projet
+
+
+-- lancer explorer windows
+-- aller dans le dossier qui contient mon projet
+-- barre d'adresse de l'explorer => cmd au début de l'adresse (path) Enter 
+-- ouvrir un terminal dans le dossier C:\Users\stagiaire\Desktop\git>
+
+=> lancer un terminal à la racine de notre projet
+=> dossier root de notre projet
+
+=> git init 
+
+Initialized empty Git repository in C:/Users/stagiaire/Desktop/git/.git/
+créer un repository => dossier qui va  contenir le versionning de mon projet 
+
+=> DANS ce dossier que le versionning est réaliser
+=> ne pas écrire dans ce fichier
+=> c'est via le terminal que l'on va réaliser les modifications dans le dossier .git 
+=> attention le dossier .git n'existe QUE dans les dossiers dans lesquels vous avez réaliser git init
+
+
+=> cas pratique
+=> créer un fichier index.html 
+=> installer bootstrap
+
+=> créer un menu (Navbar)
+=> 3 liens
+Accueil
+Blog
+Contact
+
+=> suivre mon travail avec git 
+
+=> git add index.html
+=> git commit -m "créations de la barre de menu avec Bootstrap"
+
+[master (root-commit) 2dc7181] créations de la barre de menu avec Bootstrap
+ 1 file changed, 43 insertions(+)
+ create mode 100644 index.html
+
+ dans le fichier index.html
+ ajouter en dessous de la barre de menu => un caroussel qui contient 4 photos de votre choix
